@@ -20,6 +20,10 @@ app.get("/experience", (req, res) => {
   res.render("experience");
 });
 
+app.get("/portfolio", (req, res) => {
+  res.render("portfolio");
+});
+
 app.listen(3000, () => {
   console.log("Serving on port 3000!");
 });
