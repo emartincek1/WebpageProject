@@ -4,6 +4,57 @@ img {
 body {
   background-image: url("https://images.unsplash.com/photo-1519010470956-6d877008eaa4?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGNpdHl8ZW58MHx8MHx8fDA%3D");
 }
+
 .bioexp {
   background-color: lightgrey;
+  border: 3px solid #ffa500;
+  box-shadow: 10px 5px 5px #ffa500;
+  line-height: 2em;
+  transition: 0.3s;
+}
+
+.bioexp:hover {
+  background-color: lightgrey;
+  border: 3px solid #7df9ff;
+  box-shadow: 10px 5px 5px #7df9ff;
+  line-height: 2em;
+}
+
+.bioexp h1 {
+  text-shadow: #ffa500 1px 0 3px;
+  background-image: linear-gradient(#7df9ff, #7df9ff);
+  background-size: 0% 0.1em;
+  background-position-y: 100%;
+  background-position-x: 0%;
+  background-repeat: no-repeat;
+  transition: 0.2s ease-in-out;
+  text-decoration: none;
+}
+
+.bioexp h1:hover {
+  text-shadow: #7df9ff 1px 0 3px;
+  background-size: 100% 0.1em;
+}
+
+.nav-link {
+  color: #ffa500;
+  background-image: linear-gradient(#7df9ff, #7df9ff);
+  background-size: 0% 0.1em;
+  background-position-y: 100%;
+  background-position-x: 50%;
+  background-repeat: no-repeat;
+  transition: 0.2s ease-in-out;
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  color: #7df9ff;
+  text-shadow: #ffa500 1px 0 3px;
+  background-size: 100% 0.1em;
+}
+
+.carousel-caption {
+  position: relative;
+  left: 0;
+  top: 0;
 }

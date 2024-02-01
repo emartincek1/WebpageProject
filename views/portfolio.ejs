@@ -1,50 +1,83 @@
 <% layout("layouts/boilerplate") %>
 <div class="row py-4">
   <div class="col-10 offset-1">
-    <div
-      id="carouselExampleAutoplaying"
-      class="carousel slide"
-      data-bs-ride="carousel"
-    >
+    <div id="carouselExampleCaptions" class="carousel slide">
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
       <div class="carousel-inner">
         <div class="carousel-item active">
           <img
-            src="https://images.unsplash.com/photo-1589482570117-5fe62c6c8f11?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MTV8VVBlajI4Z0RpUVV8fGVufDB8fHx8fA%3D%3D"
+            src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MTA4fDIxMzQ5NjF8fGVufDB8fHx8fA%3D%3D"
             class="d-block w-100"
             alt="..."
           />
-          <div class="carousel-caption d-none d-md-block">
+          <div class="carousel-caption d-none d-md-block bg-dark mb-4">
             <h5>Project #1</h5>
-            <p>Some representative placeholder content for the first slide.</p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente
+              est pariatur iste, maxime, aliquam vitae neque, ex assumenda eos
+              aperiam velit saepe earum odit a expedita nobis itaque dolores
+              fuga!
+            </p>
           </div>
         </div>
         <div class="carousel-item">
           <img
-            src="https://images.unsplash.com/photo-1574629399771-563c592b8fc6?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MTJ8VVBlajI4Z0RpUVV8fGVufDB8fHx8fA%3D%3D"
+            src="https://images.unsplash.com/photo-1506719040632-7d586470c936?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8OTd8MjEzNDk2MXx8ZW58MHx8fHx8"
             class="d-block w-100"
             alt="..."
           />
-          <div class="carousel-caption d-none d-md-block">
+          <div class="carousel-caption d-none d-md-block bg-dark mb-4">
             <h5>Project #2</h5>
-            <p>Some representative placeholder content for the second slide.</p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis
+              alias culpa excepturi omnis soluta delectus eos, necessitatibus
+              reprehenderit? Minima perspiciatis nihil iste non? Quas beatae nam
+              necessitatibus asperiores perspiciatis pariatur!
+            </p>
           </div>
         </div>
         <div class="carousel-item">
           <img
-            src="https://images.unsplash.com/photo-1647943094320-a929e05550ac?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8M3xVUGVqMjhnRGlRVXx8ZW58MHx8fHx8"
+            src="https://images.unsplash.com/photo-1486674776040-2aeda9228e76?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MTZ8MjkxNDIyfHxlbnwwfHx8fHw%3D"
             class="d-block w-100"
             alt="..."
           />
-          <div class="carousel-caption d-none d-md-block">
+          <div class="carousel-caption d-none d-md-block bg-dark mb-4">
             <h5>Project #3</h5>
-            <p>Some representative placeholder content for the third slide.</p>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Voluptatibus corporis magni est consectetur doloremque quod quae
+              accusamus facilis, porro ducimus sed exercitationem maiores
+              molestias repellendus reprehenderit cumque fuga natus officia.
+            </p>
           </div>
         </div>
       </div>
       <button
         class="carousel-control-prev"
         type="button"
-        data-bs-target="#carouselExampleAutoplaying"
+        data-bs-target="#carouselExampleCaptions"
         data-bs-slide="prev"
       >
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -53,7 +86,7 @@
       <button
         class="carousel-control-next"
         type="button"
-        data-bs-target="#carouselExampleAutoplaying"
+        data-bs-target="#carouselExampleCaptions"
         data-bs-slide="next"
       >
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
