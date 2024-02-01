@@ -4,6 +4,8 @@ const ejsMate = require("ejs-mate");
 
 const app = express();
 
+app.use(express.static("public"));
+
 app.engine("ejs", ejsMate);
 app.set("view engine", "ejs");
 app.set("views", path.join(__dirname, "views"));
