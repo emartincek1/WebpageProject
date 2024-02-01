@@ -26,6 +26,10 @@ app.get("/portfolio", (req, res) => {
   res.render("portfolio");
 });
 
+app.all("*", (req, res) => {
+  res.render("404");
+});
+
 app.listen(3000, () => {
   console.log("Serving on port 3000!");
 });
