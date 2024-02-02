@@ -20,7 +20,8 @@ body {
   line-height: 2em;
 }
 
-.bioexp h1 {
+.bioexp h1,
+.bioexp h2 {
   text-shadow: #ffa500 1px 0 3px;
 }
 
